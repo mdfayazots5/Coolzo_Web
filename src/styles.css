@@ -1,0 +1,38 @@
+html {
+  min-height: 100%;
+}
+
+:root {
+  --coolzo-primary: #0f766e;
+  --coolzo-primary-dark: #115e59;
+  --coolzo-surface: #f4fbfa;
+  --coolzo-border: #c7e3df;
+  --coolzo-text: #16302d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.5;
+  background: linear-gradient(180deg, #eef8f7 0%, #ffffff 100%);
+  color: var(--coolzo-text);
+  overflow-x: hidden;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
