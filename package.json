@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "ng serve",
-    "build": "ng build"
+    "build": "ng build --configuration production",
+    "postbuild": "cp -f src/_redirects dist/coolzo-web/browser/ || true && cp -f src/404.html dist/coolzo-web/browser/ || true"
   },
   "dependencies": {
     "@angular/animations": "^18.2.0",
